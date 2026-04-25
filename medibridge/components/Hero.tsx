@@ -53,7 +53,7 @@ export default function Hero({
   }
   const fadeUp = {
     hidden: { opacity: 0, y: 32 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.4, 0, 0.2, 1] } },
+    show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } },
   }
 
   return (
